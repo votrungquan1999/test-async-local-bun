@@ -1,0 +1,18 @@
+{
+  "name": "test-async-local-bun",
+  "module": "index.ts",
+  "dependencies": {
+    "@types/lodash": "^4.17.0",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "main": "bun run index.ts"
+  },
+  "type": "module"
+}
